@@ -1,0 +1,22 @@
+package Construct;
+
+public class methodAndConstructor 
+{
+
+	void method()
+	{
+		System.out.println("Hello this is method I required object for methory");
+	}
+	methodAndConstructor()
+	{
+		System.out.println("Hello this is constructor I dont require object for memory");
+	}
+	
+	public static void main(String[] args) 
+	{
+		methodAndConstructor o =new methodAndConstructor();
+		o.method();
+
+	}
+
+}
